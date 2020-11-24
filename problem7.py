@@ -13,7 +13,7 @@ for line in range(num):
             print(word)
         if letter == ' ':
             stAdd = False
-           # wordList.append(word)
+# wordList.append(word)
             word = ''
     if stAdd:
         wordList.append(word)
