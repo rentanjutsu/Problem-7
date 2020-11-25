@@ -18,6 +18,6 @@ for line in range(num):
             stAdd = False
             wordList.append(word)
             word = ''
-    else:
-        continue
 print(wordList)
+
+    #for (' ') in wordList:
