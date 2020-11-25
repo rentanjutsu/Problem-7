@@ -1,8 +1,6 @@
-running = True
 num = int(input())
 wordList = []
 
-while running:
     # This is so that the program knows how many tweets exist
     for line in range(num):
         tweet = input()
