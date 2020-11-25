@@ -1,5 +1,4 @@
 num = int(input())
-num = num + 1
 wordList = []
 
 # This is so that the program knows how many tweets exist
