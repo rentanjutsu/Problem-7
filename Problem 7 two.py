@@ -19,5 +19,5 @@ for line in range(num):
             wordList.append(word)
             word = ''
     else:
-        pass
+        continue
 print(wordList)
