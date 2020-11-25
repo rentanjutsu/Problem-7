@@ -20,5 +20,6 @@ for line in range(num):
             word = ''
     if stAdd:
         wordList.append(word)
-
+    else:
+        pass
 print(wordList)
