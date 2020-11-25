@@ -5,7 +5,7 @@ wordList = []
 while running:
     # This is so that the program knows how many tweets exist
     for line in range(num):
-        tweet = input("Input Tweets Here:")
+        tweet = input()
         tweet = tweet.casefold()
     # stAdd = start adding
         stAdd = False
