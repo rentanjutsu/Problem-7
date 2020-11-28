@@ -1,7 +1,7 @@
 num = int(input())
 wordList = []
-
 # This is so that the program knows how many tweets exist
+
 for line in range(num):
     tweet = input()
     tweet = tweet.casefold()
@@ -18,6 +18,9 @@ for line in range(num):
             stAdd = False
             wordList.append(word)
             word = ''
+        if stAdd:
+            wordList.append(word)
+
 print(wordList)
 
     #for (' ') in wordList:
