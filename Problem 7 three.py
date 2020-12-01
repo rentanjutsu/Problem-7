@@ -1,4 +1,5 @@
 from collections import Counter
+
 num = int(input())
 wordList = []
 for line in range(num):
